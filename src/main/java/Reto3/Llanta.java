@@ -12,4 +12,25 @@ public class Llanta {
     private String marca;
     private String referencia;
     private float peso;
+
+    public Llanta(String marca, String referencia, float peso) {
+        this.marca = marca;
+        this.referencia = referencia;
+        this.peso = peso;
+    }
+    public Llanta(){
+        this("Michelin","30ZR21",72.6f);
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+    public String getReferencia() {
+        return referencia;
+    }
+    public float getPeso() {
+        return peso;
+    }
+
+    
 }
